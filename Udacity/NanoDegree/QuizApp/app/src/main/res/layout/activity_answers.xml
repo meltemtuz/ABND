@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.Questions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/jvbooks"
+            android:contentDescription="@string/about"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            style="@style/bookNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/book1"/>
+        <TextView
+            style="@style/questionBodies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q1"/>
+        <TextView
+            style="@style/choiceBoxes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q1_d1_Atlantis"/>
+
+        <TextView
+            style="@style/bookNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/book2"/>
+        <TextView
+            style="@style/questionBodies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q2"/>
+        <TextView
+            style="@style/choiceBoxes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q2_b2_michel_ardan"/>
+        <TextView
+            style="@style/choiceBoxes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q2_c2_lidenbrock"/>
+        <TextView
+            style="@style/choiceBoxes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q2_a2_phileas_fogg"/>
+
+        <TextView
+            style="@style/bookNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/book3"/>
+
+        <TextView
+            style="@style/questionBodies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q3"/>
+        <TextView
+            style="@style/choiceBoxes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answer3"/>
+
+        <TextView
+            style="@style/bookNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/book4"/>
+        <TextView
+            style="@style/questionBodies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q4"/>
+        <TextView
+            style="@style/choiceBoxes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q4_a4_v_iceland"/>
+
+        <Button
+            style="@style/buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quit"
+            android:onClick="quit" />
+    </LinearLayout>
+
+</ScrollView>
